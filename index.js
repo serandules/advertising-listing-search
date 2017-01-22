@@ -2,7 +2,7 @@ var dust = require('dust')();
 var serand = require('serand');
 var utils = require('utils');
 var Advertisement = require('advertisement-service');
-var list = require('advertising-listing');
+var list = require('advertisements-listing');
 
 module.exports = function (sandbox, fn, options) {
     Advertisement.find({
